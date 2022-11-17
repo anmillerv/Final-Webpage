@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Visit Colombia</title>
+    <link rel="stylesheet" href="final.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+<nav>
+    <a href="Final Project webpage.html"><img src="images/logocolombia.png"></a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i> 
+</nav>
+<div class="text-box">
+    <h1> Colombia: Abundance and Color </h1>
+    <p> Paradise with the best coffee, people, and views</p>
+    <a href=""class="hero-btn">Come and see for yourself!</a>
+</div>
+
+
+</nav>
+    </section>
+
+<!------- About -------->
+
+<section class="about">
+    <h1> What is Colombia?</h1>
+    <p> A place that takes pride in everything it has to offer </p>
+
+    <div class="row">
+        <div class="best-things">
+            <h3>Agriculture</h3>
+            <p>The rich natural resources in Colombia are endless. To the tropical fruits, delicious coffee, and beautiful flowers, it seems like Colombian soil grows the best of everything.</p>
+
+
+    </div>
+    <div class="best-things">
+        <h3>Delicious Food</h3>
+        <p>Colombia is a country of home cooking. Everything is farm-to-table and made with fresh ingredients.</p>
+
+
+</div>
+<div class="best-things">
+    <h3>Incredible Hosts</h3>
+    <p>You will never meet a more welcoming nation of people to outsiders. No matter where you are from, someone's auntie will invite you over and have a spot for you at her table.</p>
+
+
+</div>
+
+</section>
+
+<!-----places------>
+
+<section class="places">
+    <h1>Must See Places</h1>
+    <p> One of the most underrated wonders of the world: Caño Cristales (click pic for tour)</p>
+
+
+    <a href="https://www.youtube.com/watch?v=r4TLRNTA6lM"> <img src="images/cano cristales.jpeg" width="550px" height="450px"></a> 
+</section>
+
+<!----- Call To Action ------>
+<section class="cta">
+    <h1> Learn More About<br>This Beautiul Country</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+
+</section>
+
+<!------ Footer ------->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p> We are a passionate people who have our arms open to anyone<br>who wants to experience the best of what South America has to offer </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    
+</section>
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+    
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
